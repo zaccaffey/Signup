@@ -24,6 +24,7 @@ public class HomeActivity extends AppCompatActivity {
           //  Bundle bundle = getIntent().getExtras();
             User myUser = getIntent().getParcelableExtra("userkey");
           /*  String name = bundle.getString("ekey");
+          // another
             String pass = bundle.getString("pkey");
             int selected = bundle.getInt("rkey");*/
             tvEmail.setText(myUser.getEmail());
